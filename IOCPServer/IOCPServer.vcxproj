@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6cd0cb3b-ed17-4795-b8d9-6c704b43fd03}</ProjectGuid>
-    <RootNamespace>EchoServerBasic</RootNamespace>
+    <ProjectGuid>{7651c630-6d6a-4153-b964-2f936690f2d0}</ProjectGuid>
+    <RootNamespace>IOCPServer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EchoServer</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,15 +128,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EchoServerBasic.cpp" />
-    <ClCompile Include="RingBufferSRW.cpp" />
-    <ClCompile Include="SerializedBuffer.cpp" />
+    <ClCompile Include="EchoServer.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MemoryPool.h" />
-    <ClInclude Include="RingBufferSRW.h" />
-    <ClInclude Include="SerializedBuffer.h" />
-    <ClInclude Include="Session.h" />
+    <ClInclude Include="EchoServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

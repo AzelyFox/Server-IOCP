@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="라이브러리 파일">
+      <UniqueIdentifier>{971aa104-db9c-4a59-9fac-54b413af0ac1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Session.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServerSettings.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleConfig.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializedBuffer.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBuffer.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorStatus.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MonitorProcess.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageQueue.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryDump.h">
+      <Filter>라이브러리 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryDump.cpp">
+      <Filter>라이브러리 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitorProcess.cpp">
+      <Filter>라이브러리 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MonitorStatus.cpp">
+      <Filter>라이브러리 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBuffer.cpp">
+      <Filter>라이브러리 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializedBuffer.cpp">
+      <Filter>라이브러리 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleConfig.cpp">
+      <Filter>라이브러리 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
